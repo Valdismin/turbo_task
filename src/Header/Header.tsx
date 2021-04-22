@@ -1,6 +1,5 @@
 import React from "react";
 import s from "./Header.module.css"
-import AccountCircleIcon from '@material-ui/icons/AccountCircle'
 import {Button} from "@material-ui/core";
 
 export const Header = () => {

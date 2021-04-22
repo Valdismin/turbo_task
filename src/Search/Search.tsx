@@ -1,10 +1,8 @@
 import React, {ChangeEvent, useEffect, KeyboardEvent, useState} from "react";
 import {GithubAPI} from "../api";
 import s from "./Search.module.css"
-
 import {Button, Input, LinearProgress} from "@material-ui/core";
-import {UsersContainer} from "../Users/UsersContainer";
-import {usersType} from "../Users/Users";
+import {Users, usersType} from "../Users/Users";
 
 
 export const Search = () => {
@@ -60,7 +58,7 @@ export const Search = () => {
         {
             !requestText || usersList.length < 1 ?
                 <h2>No users here. Whould you try to search for someone else?</h2>
-                : <UsersContainer usersList={usersList}/>
+                : <Users usersList={usersList}/>
         }
     </>
 }

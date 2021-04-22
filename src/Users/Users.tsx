@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from "react";
+import React from "react";
 import s from "./Users.module.css"
 import {Button, Link} from "@material-ui/core";
 
