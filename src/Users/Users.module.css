@@ -17,5 +17,10 @@
     text-decoration: none;
 }
 .user form{
+    height: 80px;
     margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 }

@@ -31,7 +31,7 @@ type propsType = {
 export const Users = (props: propsType) => {
 
     const renderUsersItem = (user: usersType, idx: number) => {
-        const {login, avatar_url, html_url} = user
+        const {login, avatar_url, html_url,repos_url} = user
         return (
             <ul key={idx}>
                 <div className={s.user}>
@@ -40,12 +40,13 @@ export const Users = (props: propsType) => {
                     <form target="_blank">
                         <Button variant="contained" size="small" color="primary" type="submit"
                                 formAction={html_url}>See on Github</Button>
+                        <Button variant="contained" size="small" color="primary" type="submit"
+                                formAction={repos_url}>See user code on Github</Button>
                     </form>
                 </div>
             </ul>
         );
     }
-
     return <div className={s.main}>
         {props.usersList.map((user) => renderUsersItem(user, user.id))}
     </div>
