@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/turbo_task/static/css/main.c2a5462b.chunk.css",
-    "main.js": "/turbo_task/static/js/main.b77aa888.chunk.js",
-    "main.js.map": "/turbo_task/static/js/main.b77aa888.chunk.js.map",
+    "main.js": "/turbo_task/static/js/main.84a627f1.chunk.js",
+    "main.js.map": "/turbo_task/static/js/main.84a627f1.chunk.js.map",
     "runtime-main.js": "/turbo_task/static/js/runtime-main.a881ff4f.js",
     "runtime-main.js.map": "/turbo_task/static/js/runtime-main.a881ff4f.js.map",
-    "static/js/2.ad0d954e.chunk.js": "/turbo_task/static/js/2.ad0d954e.chunk.js",
-    "static/js/2.ad0d954e.chunk.js.map": "/turbo_task/static/js/2.ad0d954e.chunk.js.map",
+    "static/js/2.b445ffd5.chunk.js": "/turbo_task/static/js/2.b445ffd5.chunk.js",
+    "static/js/2.b445ffd5.chunk.js.map": "/turbo_task/static/js/2.b445ffd5.chunk.js.map",
     "static/js/3.9b14856c.chunk.js": "/turbo_task/static/js/3.9b14856c.chunk.js",
     "static/js/3.9b14856c.chunk.js.map": "/turbo_task/static/js/3.9b14856c.chunk.js.map",
     "index.html": "/turbo_task/index.html",
     "static/css/main.c2a5462b.chunk.css.map": "/turbo_task/static/css/main.c2a5462b.chunk.css.map",
-    "static/js/2.ad0d954e.chunk.js.LICENSE.txt": "/turbo_task/static/js/2.ad0d954e.chunk.js.LICENSE.txt"
+    "static/js/2.b445ffd5.chunk.js.LICENSE.txt": "/turbo_task/static/js/2.b445ffd5.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.a881ff4f.js",
-    "static/js/2.ad0d954e.chunk.js",
+    "static/js/2.b445ffd5.chunk.js",
     "static/css/main.c2a5462b.chunk.css",
-    "static/js/main.b77aa888.chunk.js"
+    "static/js/main.84a627f1.chunk.js"
   ]
 }
