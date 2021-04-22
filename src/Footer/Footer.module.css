@@ -1,0 +1,8 @@
+.main{
+    text-align: center;
+    height: 60px;
+    background-color: gainsboro;
+    grid-area:footer;
+    font-family: "Poppins",sans-serif;
+    vertical-align: middle;
+}

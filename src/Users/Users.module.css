@@ -1,0 +1,21 @@
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.user{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width:300px
+}
+.user img{
+    margin-top: 10px;
+}
+.user a{
+    text-decoration: none;
+}
+.user form{
+    margin-top: 5px;
+}

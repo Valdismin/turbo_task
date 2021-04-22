@@ -1,0 +1,24 @@
+.input{
+    width:94%;
+    height: 20px;
+    outline:none;
+    margin-right: 5px;
+}
+input::placeholder {
+    font-size: 1.2em;
+    font-style: italic;
+}
+h2{
+    color: black;
+    font-size: 1.2em;
+    font-style: italic;
+}
+.materialInput{
+    display: flex;
+    align-items: flex-end;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+h2{
+    text-align: center;
+}
