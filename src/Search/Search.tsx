@@ -44,12 +44,12 @@ export const Search = () => {
 
 
     return <>
-        <div className={s.materialInput}><Input onClick={() => {
-            setInputText("")
-        }} value={inputText} onChange={onInputChange} onBlur={onInputBlur} onKeyPress={onKeyPressHandler}
-                    className={s.input}
-                    placeholder={"Find users"}/>
-            <span><Button onClick={onButtonClickHandler} variant="contained" size="small"
+        <div className={s.materialInput}><Input value={inputText} onChange={onInputChange} onBlur={onInputBlur}
+                                                onKeyPress={onKeyPressHandler}
+                                                className={s.input}
+                                                placeholder={"Find users"}/>
+            <span><Button onClick={onButtonClickHandler}
+                          variant="contained" size="small"
                           color="primary">Find!</Button></span>
         </div>
         {
